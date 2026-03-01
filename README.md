@@ -8,6 +8,10 @@ My role on this project was **Lead Programmer**.
 
 This repository contains the complete Unity project for **Alien Survivor**, a 2D shooter game. The game features multiple enemy types with AI, player controls, and procedural maps with obstacles.
 
+## Gameplay
+
+Survive waves of enemies while navigating a map filled with procedural obstacles.
+
 ## Key Systems
 
 - Multiple enemy types with AI
@@ -32,9 +36,10 @@ As lead programmer, my responsibilities included:
 - **Turrets** - Turrets that target the closest enemy  
 - **Systems Development** - Connected various systems throughout the sprint  
 
-## Gameplay
+## Tools Used
+- **Trello** sprint and overall development managed on trello.
+- **Discord** logged meeting notes and design ideas.
 
-Survive waves of enemies while navigating a map filled with procedural obstacles.
 
 ## How To Play
 
