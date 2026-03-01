@@ -67,7 +67,7 @@ Personally, I would have improved my communication with my teammate and provided
 
 3. Click Add → choose the cloned folder.
 
-4. Open the project in Unity 2022.3.56f1.
+4. Open the project in Unity 6000.2.6f2.
 
 5. Press Play to run the game in the Editor.
 
