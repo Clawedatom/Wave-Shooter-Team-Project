@@ -14,7 +14,7 @@ public class BaseBullet : MonoBehaviour
     {
         this.manager = manager;
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = vel;
+        rb.linearVelocity = vel;
     }
     
     public bool OnUpdate()

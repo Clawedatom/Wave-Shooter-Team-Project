@@ -67,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
 
         movementVector = new Vector2(horizontal, vertical).normalized * movementSpeed;
 
-        rb.velocity = movementVector;
+        rb.linearVelocity = movementVector;
 
         
     }
