@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3952537320418201528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 932422345490557289}
+  - component: {fileID: 4358021957286115417}
+  - component: {fileID: 6202612594706117184}
+  - component: {fileID: 768060609181622971}
+  m_Layer: 0
+  m_Name: BuildingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &932422345490557289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3952537320418201528}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4358021957286115417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3952537320418201528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e5d25cea2ba74f4f910e684d2d140ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showGrid: 1
+  gridWidth: 55
+  gridHeight: 55
+  cellSize: 1
+--- !u!114 &6202612594706117184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3952537320418201528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aa1d2371abbd174780ebe00e2041b89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretPrefab: {fileID: 8329180291460938306, guid: f347d932ac577164c8f455e0a30a3673, type: 3}
+  turrets: []
+  buildMode: 0
+  currentHoveredGridCenter: {x: 0, y: 0}
+  testBuilding: {fileID: 8050356737294406605, guid: 9112a14bc894fac48b04a02a9809c345, type: 3}
+  mousePointGO: {fileID: 8311208949696078903, guid: bbaddbf56e6de114ab8cdb7e734d8e02, type: 3}
+  buildModeHoverGO: {fileID: 0}
+  buildModeHoverPrefab: {fileID: 8050356737294406605, guid: b5482eb5b56d5b2438a9c4332986c454, type: 3}
+--- !u!114 &768060609181622971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3952537320418201528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b5b581506afac4c80422e9de40db91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacleGridPoints: []
+  numberOfSmallClusters: 15
+  smallClusterRadius: 5
+  clusterDensity: 0.5
+  numberOfLargeClusters: 3
+  largeClusterRadius: 8
+  maxClusterAttempts: 3
+  obstaclePrefab: {fileID: 4115567909001669063, guid: b3b7d2698ac485540b903238418d5bb5, type: 3}

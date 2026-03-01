@@ -1,2 +1,4 @@
-# Wave-Shooter-Team-Project
-Unity 2D wave shooter developed for a team project in university.
+# Team Project
+"Team 3"'s project for the Year 1 Semester 2 Team Project unit.
+## Details
+Built on Unity 2022.3.56f1. 
