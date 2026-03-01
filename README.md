@@ -1,6 +1,6 @@
 # Unity 2D Alien Survivor - Team Project
 
-Prototype 2D shooter developed by a team during the first year of university. Players face waves of enemies while navigating procedural maps and aim to survive as long as possible.
+Prototype 2D shooter developed by a team of 7 during the first year of university. Players face waves of enemies while navigating procedural maps and aim to survive as long as possible.
 
 My role on this project was **Lead Programmer**.
 
